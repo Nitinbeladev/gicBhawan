@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-import Jury from "../membersData/commitee/jury.json";
+import Jury from "../membersData/commitee/Jury.json";
 import Organiser from "../membersData/commitee/Organiser.json";
 import Reviewer from "../membersData/commitee/Reviewer.json";
 
