@@ -1,6 +1,6 @@
 const HeroSection = () => {
   return (
-    <section className="relative w-full h-[20rem] bg-blue-900 text-white py-10">
+    <section className="relative w-full min-h-[20rem] bg-blue-900 text-white py-10">
       <div className="container mx-auto px-4 md:flex justify-between items-center">
         <img
           src="/event-banner.png"
