@@ -6,7 +6,7 @@ import Updates from "../updates/Updates";
 import Youtube from "./Youtube";
 import Performanceboard from "./Performanceboard";
 import HonorableMembers from "./Honorablemembers"
-import CommitteeMembers from "./Committee"
+// import CommitteeMembers from "./Committee"
 function Homepage() {
   return (
     <div className="overflow-hidden">
@@ -17,7 +17,7 @@ function Homepage() {
       <Youtube />
       <Performanceboard />
       <HonorableMembers/>
-      <CommitteeMembers/>
+      {/* <CommitteeMembers/> */}
     </div>
   );
 }
