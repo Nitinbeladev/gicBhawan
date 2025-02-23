@@ -1,4 +1,4 @@
-import honorablemembers from "../membersData/honorables/honorable.json";
+import honorablemembers from "../membersData/honorables/Honorable.json";
 export default function HonorableMembers() {
   return (
     <div className="bg-gray-100 py-10 px-5 md:px-20">
