@@ -1,6 +1,6 @@
 const HeroSection = () => {
   return (
-    <section className="relative w-full [@media(min-width:223px)]:h-[24rem]  bg-blue-900 text-white py-10">
+    <section className="relative w-full  bg-blue-900 text-white py-10">
       {/*min-h-[20rem]*/}
       <div className="container mx-auto px-4 md:flex justify-between items-center">
         <img
