@@ -32,6 +32,9 @@ const Navbar = () => {
         <button className="border px-3 py-1 rounded">Member Login</button>
         <button className="border px-3 py-1 rounded">Candidate Login</button>
       </div> */}
+      <div className="flex items-center gap-2 bg-white rounded-[50%] h-10 w-10 p-1 m-1.5">
+        <img src={logo} alt="Logo" className="h-8 w-8" />
+      </div>
       <div className="flex gap-2">
         <FaFacebookSquare className="text-white text-xl cursor-pointer" />
         <FaSquareInstagram className="text-white text-xl cursor-pointer" />
