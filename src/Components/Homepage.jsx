@@ -9,6 +9,7 @@ import HonorableMembers from "./Honorablemembers";
 import CommitteeMembers from "./Committee";
 import VideoCarousel from "./VideoCarousel";
 import NewsTabs from "./NewsTabs";
+import Footer from "./Footer";
 function Homepage() {
   return (
     <div className="overflow-hidden">
@@ -22,6 +23,7 @@ function Homepage() {
       <CommitteeMembers />
       <VideoCarousel />
       <NewsTabs />
+      <Footer />
     </div>
   );
 }
